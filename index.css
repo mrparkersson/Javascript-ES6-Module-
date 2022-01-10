@@ -19,8 +19,8 @@ a:visited {
 }
 
 :root {
-  --bg-black: rgb(35, 11, 46);
-  --bg-gray: rgb(134, 16, 170);
+  --bg-black: rgb(15, 15, 15);
+  --bg-gray: rgb(46, 46, 46);
 }
 
 body {
@@ -35,7 +35,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  border: 1px solid #fff;
+  border: 3px solid #fff;
 }
 
 .date {
@@ -55,11 +55,11 @@ header h1 {
 
 .links .active {
   padding-bottom: 5px;
-  border-bottom: 1px solid #fff;
+  border-bottom: 2px solid #fff;
 }
 
 .links a:not(.active):hover {
-  border-bottom: 1px solid #fff;
+  border-bottom: 3px solid #fff;
 }
 
 .home {
@@ -71,7 +71,7 @@ header h1 {
 
 .books-list {
   width: 100%;
-  border: 1px solid #fff;
+  border: 3px solid #fff;
   margin: 20px 0;
 }
 
@@ -88,7 +88,7 @@ header h1 {
 }
 
 button {
-  border: 1px solid #fff;
+  border: 3px solid #fff;
   background-color: var(--bg-black);
   color: #fff;
   padding: 10px;
@@ -119,7 +119,7 @@ form {
 form input {
   width: 100%;
   padding: 10px;
-  border: 1px solid #fff;
+  border: 3px solid #fff;
   background-color: var(--bg-gray);
   color: #fff;
   font-size: 18px;
