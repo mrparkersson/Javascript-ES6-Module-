@@ -1,15 +1,34 @@
 {
-  "name": "modules",
+  "dependencies": {
+    "package.json": "^2.0.1"
+  },
+  "name": "javascript-es6-module-",
+  "description": "![](https://img.shields.io/badge/mrparkersson-blueviolet)",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.4",
+    "hint": "^6.1.9",
+    "stylelint": "^14.2.0",
+    "stylelint-config-standard": "^24.0.0",
+    "stylelint-csstree-validator": "^2.0.0",
+    "stylelint-scss": "^4.1.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrparkersson/Javascript-ES6-Module-.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "luxon": "^2.3.0"
-  }
+  "bugs": {
+    "url": "https://github.com/mrparkersson/Javascript-ES6-Module-/issues"
+  },
+  "homepage": "https://github.com/mrparkersson/Javascript-ES6-Module-#readme"
 }

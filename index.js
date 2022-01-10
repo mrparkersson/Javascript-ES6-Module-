@@ -1,6 +1,8 @@
 import renderBooks from './modules/renderBook.js';
 import Books from './modules/class.js';
-import { DateTime } from './node_modules/luxon/build/es6/luxon.js';
+/* eslint-disable */
+import { DateTime } from './node_modules/luxon/build/es6/luxon';
+/* eslint-enable */
 
 const formElm = document.querySelector('form');
 
